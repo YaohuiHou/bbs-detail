@@ -1,0 +1,261 @@
+/*等级*/
+
+.grade {
+  display: inline-block;
+  height: 14px;
+  margin-left: 4px;
+  background-image: url('https://s.kcimg.cn/bbs/images/app/new-grade.png');
+  background-size: 367px 225px;
+  text-indent: -100px;
+  font-size: 0;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.big-grade {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px;
+  height: 14px;
+  background-image: url('https://s.kcimg.cn/bbs/images/app/new-grade.png');
+  background-size: 367px 225px;
+  text-indent: -100px;
+  font-size: 0;
+  overflow: hidden;
+}
+
+.big-grade.big-grade1 {
+  background-position: -177px -23px;
+  width: 49px;
+}
+
+.big-grade.big-grade2 {
+  background-position: -177px -47px;
+  width: 49px;
+}
+
+.big-grade.big-grade3 {
+  background-position: -177px -71px;
+  width: 49px;
+}
+
+.big-grade.big-grade4 {
+  background-position: -177px -95px;
+  width: 49px;
+}
+
+.big-grade.big-grade5 {
+  background-position: -177px -119px;
+  width: 49px;
+}
+
+.big-grade.big-grade6 {
+  background-position: -177px -143px;
+  width: 49px;
+}
+
+.big-grade.big-grade7 {
+  background-position: -177px -167px;
+  width: 49px;
+}
+
+.big-grade.big-grade8 {
+  background-position: -177px -191px;
+  width: 49px;
+}
+
+.big-grade.big-grade9 {
+  background-position: -235px -23px;
+  width: 49px;
+}
+
+.big-grade.big-grade10 {
+  background-position: -235px -47px;
+  width: 49px;
+}
+
+.big-grade.big-grade11 {
+  background-position: -235px -71px;
+  width: 49px;
+}
+
+.big-grade.big-grade12 {
+  background-position: -235px -95px;
+  width: 49px;
+}
+
+.big-grade.big-grade13 {
+  background-position: -235px -119px;
+  width: 49px;
+}
+
+.big-grade.big-grade14 {
+  background-position: -235px -143px;
+  width: 49px;
+}
+
+.big-grade.big-grade15 {
+  background-position: -291px -23px;
+  width: 49px;
+}
+
+.big-grade.big-grade16 {
+  background-position: -291px -47px;
+  width: 49px;
+}
+
+.big-grade.big-grade17 {
+  background-position: -291px -71px;
+  width: 49px;
+}
+
+.big-grade.big-grade18 {
+  background-position: -291px -95px;
+  width: 31px;
+}
+
+.grade.grade1 {
+  background-position: -43px -23px;
+  width: 30px;
+}
+
+.grade.grade2 {
+  background-position: -43px -43px;
+  width: 30px;
+}
+
+.grade.grade3 {
+  background-position: -43px -63px;
+  width: 30px;
+}
+
+.grade.grade4 {
+  background-position: -43px -83px;
+  width: 30px;
+}
+
+.grade.grade5 {
+  background-position: -43px -103px;
+  width: 30px;
+}
+
+.grade.grade6 {
+  background-position: -43px -123px;
+  width: 30px;
+}
+
+.grade.grade7 {
+  background-position: -43px -143px;
+  width: 30px;
+}
+
+.grade.grade8 {
+  background-position: -43px -163px;
+  width: 30px;
+}
+
+.grade.grade9 {
+  background-position: -80px -63px;
+  width: 30px;
+}
+
+.grade.grade10 {
+  background-position: -80px -83px;
+  width: 30px;
+}
+
+.grade.grade11 {
+  background-position: -80px -103px;
+  width: 30px;
+}
+
+.grade.grade12 {
+  background-position: -80px -123px;
+  width: 30px;
+}
+
+.grade.grade13 {
+  background-position: -80px -143px;
+  width: 30px;
+}
+
+.grade.grade14 {
+  background-position: -80px -163px;
+  width: 30px;
+}
+
+.grade.grade15 {
+  background-position: -117px -103px;
+  width: 30px;
+}
+
+.grade.grade16 {
+  background-position: -117px -123px;
+  width: 30px;
+}
+
+.grade.grade17 {
+  background-position: -117px -143px;
+  width: 30px;
+}
+
+.grade.grade18 {
+  background-position: -117px -163px;
+  width: 30px;
+}
+
+
+/*懒加载背景图*/
+
+.figure {
+  padding: 4px 0;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  min-height: 100px;
+  margin: 0 auto;
+}
+
+.page-ad-figure img,
+.figure img {
+  max-width: 100%;
+}
+
+.figure:after {
+  position: absolute;
+  left: 0;
+  top: 4px;
+  content: "";
+  width: 100%;
+  height: calc(100% - 8px);
+  background: #efefef url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAAApBAMAAAD0eAtEAAAAFVBMVEXv7+/R0dHX19fc3Nzp6eng4ODk5OQNpKnjAAACnElEQVRIx9WWTW/bMAyGPVvRuVQan2M16NnOx85O4u2cbPXdHrD8/5+wl6IVWcpQFOipLKCUlB69JSkGzT5nubUvUUBZazfeWRDREPa+Ea0iz0ToEafbj6LUi70pXuEb5w4/+v4XvAM72oWufq8V9G7rkeb2c+4UFNkQo0ZHu8/jR1DrrD5hqe5ut7XeBDW7yQRNy6QQLrPEjoIuvZ+i4dS+6+Ju0aRqJ0vQcMqk3Tpx4lE969DX6NTfBFWVNFrfKsaWt9utTVE5VS4SNHeisILoj6tE1wmrcctcdEjRyqfW0HPOaCGv7bwLdsAmOrD1bbiIqK/5mei7U21o48oSDIG4720keiKxsiDDO8fkhTTz1xSJchkkVxFFwh1o051JOq4QOCNwgwXRi+yMVObYE9FQ4SZ0a1YmVXMKq3vPh1z+nAgtRDZBcxOu1I2UkFJVkU3RisKN46yeMVqQPNLZ7LzmREFUNkhkIxSyqQ1zUTmBChuWjdEiJVcSWXsSLle4HEU2ecNxrg3Ayg/+C0gaGNV83/son32GI1Y33JUT0Ixl30NFtPXvbamh3KqKq6bxvgd3efoVrqdAB5s+3JT5s1/YXEbKpSM5LVAFhTkvdlnf/97hMUnMLa1GhZQEcx4qmWcto1m53q1RWzVNscTcoU1BS+w8ZfINU2HwD/1bNpr+Su2CNl3r0VK+kjXHeGkMur0noGLNKue7gaLJbcHv3aNPvtVrLNi4Aq3I3NEK6OUB7UZRbVN0jx9Br0RAiUyMvhJJrg9ofVaCKuQK9GVL6whd9Q3QFUrwgGYqzhXu/3P9DIo1QTNB8dh5tLDWR7KVcV+4ZtbXNV/AMd6gckLD/ysNxoohvv1kba1sjU9lYVmG38+WA/AGzfOG1/QP24+i/flJ+D4AAAAASUVORK5CYII=) no-repeat 50% 50%;
+  -webkit-background-size: 58px 20px;
+  background-size: 58px 20px;
+  z-index: -1;
+}
+
+
+/*加V*/
+
+.avatar i {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 12px;
+  height: 12px;
+}
+
+.avatar i.official {
+  background: url('https://s.kcimg.cn/bbs/images/app/bbs_tribune_guanfang@2x.png') 100%;
+  background-size: cover;
+}
+
+.avatar i.blueV {
+  background: url('https://s.kcimg.cn/bbs/images/app/bbs_tribune_blueV@2x.png') 100%;
+  background-size: cover;
+}
+
+.avatar i.orangeV {
+  background: url('https://s.kcimg.cn/bbs/images/app/bbs_tribune_yellowV@2x.png') 100%;
+  background-size: cover;
+}
